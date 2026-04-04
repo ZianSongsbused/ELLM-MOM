@@ -1,0 +1,1247 @@
+{
+  "-NC(=O)CH3": {
+    "smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+    "smiles": "*NC(C)=O",
+    "description": "methyl amide"
+  },
+  "-C(=O)O": {
+    "smarts": "*-C(=O)[O;D1]",
+    "smiles": "*C(O)=O",
+    "description": "carboxylic acids"
+  },
+  "-C(=O)OMe": {
+    "smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+    "smiles": "*C(=O)OC",
+    "description": "carbonyl methyl ester"
+  },
+  "-C(=O)H": {
+    "smarts": "*-C(=O)-[C;D1]",
+    "smiles": "*C(C)=O",
+    "description": "terminal aldehyde"
+  },
+  "-C(=O)N": {
+    "smarts": "*-C(=O)-[N;D1]",
+    "smiles": "*C(N)=O",
+    "description": "amide"
+  },
+  "-C(=O)CH3": {
+    "smarts": "*-C(=O)-[C;D1;H3]",
+    "smiles": "*C(C)=O",
+    "description": "carbonyl methyl"
+  },
+  "-N=C=O": {
+    "smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+    "smiles": "*N=C=O",
+    "description": "isocyanate"
+  },
+  "-N=C=S": {
+    "smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+    "smiles": "*N=C=S",
+    "description": "isothiocyanate"
+  },
+  "-NO2": {
+    "smarts": "*-[N;D3](=[O;D1])[O;D1]",
+    "smiles": "*N(O)=O",
+    "description": "nitro"
+  },
+  "-N=O": {
+    "smarts": "*-[N;R0]=[O;D1]",
+    "smiles": "*N=O",
+    "description": "nitroso"
+  },
+  "=N-O": {
+    "smarts": "*=[N;R0]-[O;D1]",
+    "smiles": "*=NO",
+    "description": "oximes"
+  },
+  "=NCH3": {
+    "smarts": "*=[N;R0]-[C;D1;H3]",
+    "smiles": "*=NC",
+    "description": "Imines"
+  },
+  "-N=CH2": {
+    "smarts": "*-[N;R0]=[C;D1;H2]",
+    "smiles": "*N=C",
+    "description": "Imines"
+  },
+  "-N=NCH3": {
+    "smarts": "*-[N;D2]=[N;D2]-[C;D1;H3]",
+    "smiles": "*N=NC",
+    "description": "terminal azo"
+  },
+  "-N=N": {
+    "smarts": "*-[N;D2]=[N;D1]",
+    "smiles": "*N=N",
+    "description": "hydrazines"
+  },
+  "-N#N": {
+    "smarts": "*-[N;D2]#[N;D1]",
+    "smiles": "*N#N",
+    "description": "diazo"
+  },
+  "-C#N": {
+    "smarts": "*-[C;D2]#[N;D1]",
+    "smiles": "*C#N",
+    "description": "cyano"
+  },
+  "-SO2NH2": {
+    "smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+    "smiles": "*S(N)(=O)=O",
+    "description": "primary sulfonamide"
+  },
+  "-NHSO2CH3": {
+    "smarts": "*-[N;D2]-[S;D4](=[O;D1])(=[O;D1])-[C;D1;H3]",
+    "smiles": "*NS(C)(=O)=O",
+    "description": "methyl sulfonamide"
+  },
+  "-SO3H": {
+    "smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+    "smiles": "*S(=O)(=O)O",
+    "description": "sulfonic acid"
+  },
+  "-SO3CH3": {
+    "smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+    "smiles": "*S(=O)(=O)OC",
+    "description": "methyl ester sulfonyl"
+  },
+  "-SO2CH3": {
+    "smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+    "smiles": "*S(C)(=O)=O",
+    "description": "methyl sulfonyl"
+  },
+  "-SO2Cl": {
+    "smarts": "*-[S;D4](=O)(=O)-[Cl]",
+    "smiles": "*S(=O)(=O)Cl",
+    "description": "sulfonyl chloride"
+  },
+  "-SOCH3": {
+    "smarts": "*-[S;D3](=O)-[C;D1]",
+    "smiles": "*S(C)=O",
+    "description": "methyl sulfinyl"
+  },
+  "-SCH3": {
+    "smarts": "*-[S;D2]-[C;D1;H3]",
+    "smiles": "*SC",
+    "description": "methylthio"
+  },
+  "-S": {
+    "smarts": "*-[S;D1]",
+    "smiles": "*S",
+    "description": "thiols"
+  },
+  "=S": {
+    "smarts": "*=[S;D1]",
+    "smiles": "*=S",
+    "description": "thiocarbonyls"
+  },
+  "-X": {
+    "smarts": "*-[#9,#17,#35,#53]",
+    "smiles": "**",
+    "description": "halogens"
+  },
+  "-tBu": {
+    "smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+    "smiles": "*C(C)(C)C",
+    "description": "t-butyl"
+  },
+  "-CF3": {
+    "smarts": "*-[C;D4](F)(F)F",
+    "smiles": "*C(F)(F)F",
+    "description": "trifluoromethyl"
+  },
+  "-C#CH": {
+    "smarts": "*-[C;D2]#[C;D1;H]",
+    "smiles": "*C#C",
+    "description": "acetylenes"
+  },
+  "-cPropyl": {
+    "smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+    "smiles": "*C1CC1",
+    "description": "cyclopropyl"
+  },
+  "-OEt": {
+    "smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+    "smiles": "*OCC",
+    "description": "ethoxy"
+  },
+  "-OMe": {
+    "smarts": "*-[O;D2]-[C;D1;H3]",
+    "smiles": "*OC",
+    "description": "methoxy"
+  },
+  "-O": {
+    "smarts": "*-[O;D1]",
+    "smiles": "*O",
+    "description": "side-chain hydroxyls"
+  },
+  "=O": {
+    "smarts": "*=[O;D1]",
+    "smiles": "*=O",
+    "description": "side-chain aldehydes or ketones"
+  },
+  "-N": {
+    "smarts": "*-[N;D1]",
+    "smiles": "*N",
+    "description": "primary amines"
+  },
+  "=N": {
+    "smarts": "*=[N;D1]",
+    "smiles": "*=N",
+    "description": "???"
+  },
+  "#N": {
+    "smarts": "*#[N;D1]",
+    "smiles": "*#N",
+    "description": "nitriles"
+  },
+  "c1ccccc1": {
+    "smiles": "c1ccccc1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]:[#6]:[#6]:1",
+    "description": "direct SMILES: c1ccccc1"
+  },
+  "pyrazole": {
+    "smiles": "C1=CNN=C1",
+    "smarts": "[#6]1:[#6]:[#7H]:[#7]:[#6]:1",
+    "description": "from PubChem: pyrazole"
+  },
+  "pyrimidine": {
+    "smiles": "C1=CN=CN=C1",
+    "smarts": "[#6]1:[#6]:[#7]:[#6]:[#7]:[#6]:1",
+    "description": "from PubChem: pyrimidine"
+  },
+  "I": {
+    "smiles": "I",
+    "smarts": "[#53]",
+    "description": "direct SMILES: I"
+  },
+  "benzene": {
+    "smiles": "C1=CC=CC=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]:[#6]:[#6]:1",
+    "description": "from PubChem: benzene"
+  },
+  "naphthalene": {
+    "smiles": "C1=CC=C2C=CC=CC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#6]:[#6]:[#6]:[#6]:[#6]:2:[#6]:1",
+    "description": "from PubChem: naphthalene"
+  },
+  "*CCCN": {
+    "smiles": "*CCCN",
+    "smarts": "[#0]-[#6]-[#6]-[#6]-[#7]",
+    "description": "direct SMILES: *CCCN"
+  },
+  "*CN": {
+    "smiles": "*CN",
+    "smarts": "[#0]-[#6]-[#7]",
+    "description": "direct SMILES: *CN"
+  },
+  "*[N+](C)(C)C": {
+    "smiles": "*[N+](C)(C)C",
+    "smarts": "[#0]-[#7+](-[#6])(-[#6])-[#6]",
+    "description": "direct SMILES: *[N+](C)(C)C"
+  },
+  "*NC(=N)N": {
+    "smiles": "*NC(=N)N",
+    "smarts": "[#0]-[#7]-[#6](=[#7])-[#7]",
+    "description": "direct SMILES: *NC(=N)N"
+  },
+  "indole": {
+    "smiles": "C1=CC=C2NC=CC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#7H]:[#6]:[#6]:[#6]:2:[#6]:1",
+    "description": "from PubChem: indole"
+  },
+  "NH2": {
+    "smiles": "N",
+    "smarts": "[#7]",
+    "description": "amine"
+  },
+  "OH": {
+    "smiles": "O",
+    "smarts": "[#8]",
+    "description": "hydroxyl"
+  },
+  "Br": {
+    "smiles": "Br",
+    "smarts": "[#35]",
+    "description": "direct SMILES: Br"
+  },
+  "pyridine": {
+    "smiles": "C1=CC=NC=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#7]:[#6]:[#6]:1",
+    "description": "from PubChem: pyridine"
+  },
+  "transform: amide": {
+    "smiles": "C(=O)NR",
+    "smarts": null,
+    "description": "Amide"
+  },
+  "transform: C=O": {
+    "smiles": "C=O",
+    "smarts": "[#6]=[#8]",
+    "description": "carbonyl"
+  },
+  "C=S": {
+    "smiles": "C=S",
+    "smarts": "[#6]=[#16]",
+    "description": "direct SMILES: C=S"
+  },
+  "transform: alcohol": {
+    "smiles": "O",
+    "smarts": "[#8]",
+    "description": "Hydroxyl"
+  },
+  "ether": {
+    "smiles": "CCOCC",
+    "smarts": "[#6]-[#6]-[#8]-[#6]-[#6]",
+    "description": "from PubChem: ether"
+  },
+  "NO2": {
+    "smiles": "[N+](=O)[O-]",
+    "smarts": "[#7+](=[#8])-[#8-]",
+    "description": "nitro"
+  },
+  "transform: aldehyde": {
+    "smiles": "[CH=O]",
+    "smarts": null,
+    "description": "aldehyde"
+  },
+  "CH3": {
+    "smiles": "[CH3]",
+    "smarts": "[#6H3]",
+    "description": "from PubChem: CH3"
+  },
+  "C": {
+    "smiles": "C",
+    "smarts": "[#6]",
+    "description": "direct SMILES: C"
+  },
+  "CN": {
+    "smiles": "CN",
+    "smarts": "[#6]-[#7]",
+    "description": "direct SMILES: CN"
+  },
+  "CC": {
+    "smiles": "CC",
+    "smarts": "[#6]-[#6]",
+    "description": "direct SMILES: CC"
+  },
+  "Cl": {
+    "smiles": "Cl",
+    "smarts": "[#17]",
+    "description": "direct SMILES: Cl"
+  },
+  "pyrrole": {
+    "smiles": "C1=CNC=C1",
+    "smarts": "[#6]1:[#6]:[#7H]:[#6]:[#6]:1",
+    "description": "from PubChem: pyrrole"
+  },
+  "pyrazine": {
+    "smiles": "C1=CN=CC=N1",
+    "smarts": "[#6]1:[#6]:[#7]:[#6]:[#6]:[#7]:1",
+    "description": "from PubChem: pyrazine"
+  },
+  "transform: amine": {
+    "smiles": "N",
+    "smarts": "[#7]",
+    "description": "Amino"
+  },
+  "imine": {
+    "smiles": "C1=CC2=NC(=C1)C=N[C@@H]1CCCC[C@H]1N=CC1=CC=CC(=N1)C=N[C@H]1CCCC[C@@H]1N=C2",
+    "smarts": "[#6]1:[#6]:[#6]2:[#7]:[#6](:[#6]:1)-[#6]=[#7]-[#6@@H]1-[#6]-[#6]-[#6]-[#6]-[#6@H]-1-[#7]=[#6]-[#6]1:[#6]:[#6]:[#6]:[#6](:[#7]:1)-[#6]=[#7]-[#6@H]1-[#6]-[#6]-[#6]-[#6]-[#6@@H]-1-[#7]=[#6]-2",
+    "description": "from PubChem: imine"
+  },
+  "*Cl": {
+    "smiles": "*Cl",
+    "smarts": "[#0]-[#17]",
+    "description": "direct SMILES: *Cl"
+  },
+  "furan": {
+    "smiles": "C1=COC=C1",
+    "smarts": "[#6]1:[#6]:[#8]:[#6]:[#6]:1",
+    "description": "from PubChem: furan"
+  },
+  "SO3H": {
+    "smiles": "OS(=O)(=O)O",
+    "smarts": "[#8]-[#16](=[#8])(=[#8])-[#8]",
+    "description": "Sulfonic acid"
+  },
+  "*[C": {
+    "smiles": "*[C",
+    "smarts": null,
+    "description": "Carbonyl"
+  },
+  "*N1CCC1": {
+    "smiles": "*N1CCC1",
+    "smarts": "[#0]-[#7]1-[#6]-[#6]-[#6]-1",
+    "description": "direct SMILES: *N1CCC1"
+  },
+  "*c1ccc(Cl)s1": {
+    "smiles": "*c1ccc(Cl)s1",
+    "smarts": "[#0]-[#6]1:[#6]:[#6]:[#6](-[#17]):[#16]:1",
+    "description": "direct SMILES: *c1ccc(Cl)s1"
+  },
+  "CF3": {
+    "smiles": "C(F)(F)(F)",
+    "smarts": "[#6](-[#9])(-[#9])-[#9]",
+    "description": "fluoroalkyl (CF3)"
+  },
+  "indane": {
+    "smiles": "C1=CC=C2CCCC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2-[#6]-[#6]-[#6]-[#6]:2:[#6]:1",
+    "description": "from PubChem: indane"
+  },
+  "tetralin": {
+    "smiles": "C1=CC=C2CCCCC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2-[#6]-[#6]-[#6]-[#6]-[#6]:2:[#6]:1",
+    "description": "from PubChem: tetralin"
+  },
+  "*CCCCN": {
+    "smiles": "*CCCCN",
+    "smarts": "[#0]-[#6]-[#6]-[#6]-[#6]-[#7]",
+    "description": "direct SMILES: *CCCCN"
+  },
+  "*CCN": {
+    "smiles": "*CCN",
+    "smarts": "[#0]-[#6]-[#6]-[#7]",
+    "description": "direct SMILES: *CCN"
+  },
+  "F": {
+    "smiles": "F",
+    "smarts": "[#9]",
+    "description": "direct SMILES: F"
+  },
+  "thiophene": {
+    "smiles": "C1=CSC=C1",
+    "smarts": "[#6]1:[#6]:[#16]:[#6]:[#6]:1",
+    "description": "from PubChem: thiophene"
+  },
+  "*N": {
+    "smiles": "*N",
+    "smarts": "[#0]-[#7]",
+    "description": "direct SMILES: *N"
+  },
+  "c1cccnc1": {
+    "smiles": "c1ccncc1",
+    "smarts": "[#6]1:[#6]:[#6]:[#7]:[#6]:[#6]:1",
+    "description": "direct SMILES: c1cccnc1"
+  },
+  "benzofuran": {
+    "smiles": "C1=CC=C2OC=CC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#8]:[#6]:[#6]:[#6]:2:[#6]:1",
+    "description": "from PubChem: benzofuran"
+  },
+  "quinoline": {
+    "smiles": "C1=CC=C2N=CC=CC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#7]:[#6]:[#6]:[#6]:[#6]:2:[#6]:1",
+    "description": "from PubChem: quinoline"
+  },
+  "*C1CCNCC1": {
+    "smiles": "*C1CCNCC1",
+    "smarts": "[#0]-[#6]1-[#6]-[#6]-[#7]-[#6]-[#6]-1",
+    "description": "direct SMILES: *C1CCNCC1"
+  },
+  "transform: ketone": {
+    "smiles": "C=O",
+    "smarts": "[#6]=[#8]",
+    "description": "carbonyl"
+  },
+  "COOH": {
+    "smiles": "C(=O)O",
+    "smarts": "[#6](=[#8])-[#8]",
+    "description": "carboxyl"
+  },
+  "C1CCCCC1": {
+    "smiles": "C1CCCCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#6]-[#6]-[#6]-1",
+    "description": "direct SMILES: C1CCCCC1"
+  },
+  "transform: carboxylic acid": {
+    "smiles": "C(=O)O",
+    "smarts": "[#6](=[#8])-[#8]",
+    "description": "Acidic"
+  },
+  "transform: COOH": {
+    "smiles": "C(=O)O",
+    "smarts": "[#6](=[#8])-[#8]",
+    "description": "Carboxylic acid"
+  },
+  "CONH2": {
+    "smiles": "C(=O)N",
+    "smarts": "[#6](=[#8])-[#7]",
+    "description": "amide"
+  },
+  "alcohol": {
+    "smiles": "CCO",
+    "smarts": "[#6]-[#6]-[#8]",
+    "description": "from PubChem: alcohol"
+  },
+  "C1CCNCC1": {
+    "smiles": "C1CCNCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#7]-[#6]-[#6]-1",
+    "description": "direct SMILES: C1CCNCC1"
+  },
+  "OCH3": {
+    "smiles": "CO",
+    "smarts": "[#6]-[#8]",
+    "description": "Methoxy"
+  },
+  "pyrrolidine": {
+    "smiles": "C1CCNC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#7]-[#6]-1",
+    "description": "from PubChem: pyrrolidine"
+  },
+  "oxazole": {
+    "smiles": "C1=COC=N1",
+    "smarts": "[#6]1:[#6]:[#8]:[#6]:[#7]:1",
+    "description": "from PubChem: oxazole"
+  },
+  "*C(=O)CCl": {
+    "smiles": "*C(=O)CCl",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#17]",
+    "description": "direct SMILES: *C(=O)CCl"
+  },
+  "cyclohexane": {
+    "smiles": "C1CCCCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#6]-[#6]-[#6]-1",
+    "description": "from PubChem: cyclohexane"
+  },
+  "alkene": {
+    "smiles": "C=C",
+    "smarts": "[#6]=[#6]",
+    "description": "Double bond"
+  },
+  "tetrahydropyran": {
+    "smiles": "C1CCOCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#8]-[#6]-[#6]-1",
+    "description": "from PubChem: tetrahydropyran"
+  },
+  "cyclopentane": {
+    "smiles": "C1CCCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#6]-[#6]-1",
+    "description": "from PubChem: cyclopentane"
+  },
+  "alkyne": {
+    "smiles": "C#C",
+    "smarts": "[#6]#[#6]",
+    "description": "Triple bond"
+  },
+  "indoline": {
+    "smiles": "C1=CC=C2NCCC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2-[#7]-[#6]-[#6]-[#6]:2:[#6]:1",
+    "description": "from PubChem: indoline"
+  },
+  "sulfide": {
+    "smiles": "[S-2]",
+    "smarts": "[#16-2]",
+    "description": "from PubChem: sulfide"
+  },
+  "indene": {
+    "smiles": "C1=CC=C2CC=CC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2-[#6]-[#6]=[#6]-[#6]:2:[#6]:1",
+    "description": "from PubChem: indene"
+  },
+  "pyridazine": {
+    "smiles": "C1=CC=NN=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#7]:[#7]:[#6]:1",
+    "description": "from PubChem: pyridazine"
+  },
+  "thiazole": {
+    "smiles": "C1=CSC=N1",
+    "smarts": "[#6]1:[#6]:[#16]:[#6]:[#7]:1",
+    "description": "from PubChem: thiazole"
+  },
+  "indazole": {
+    "smiles": "C1=CC=C2NN=CC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#7H]:[#7]:[#6]:[#6]:2:[#6]:1",
+    "description": "from PubChem: indazole"
+  },
+  "*C(=O)CCCCCCCCCCCCC": {
+    "smiles": "*C(=O)CCCCCCCCCCCCC",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]",
+    "description": "direct SMILES: *C(=O)CCCCCCCCCCCCC"
+  },
+  "*OS(=O)(=O)O": {
+    "smiles": "*OS(=O)(=O)O",
+    "smarts": "[#0]-[#8]-[#16](=[#8])(=[#8])-[#8]",
+    "description": "direct SMILES: *OS(=O)(=O)O"
+  },
+  "*C(=O)C(C)C": {
+    "smiles": "*C(=O)C(C)C",
+    "smarts": "[#0]-[#6](=[#8])-[#6](-[#6])-[#6]",
+    "description": "direct SMILES: *C(=O)C(C)C"
+  },
+  "*CCC(=O)O": {
+    "smiles": "*CCC(=O)O",
+    "smarts": "[#0]-[#6]-[#6]-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *CCC(=O)O"
+  },
+  "*C1C[C": {
+    "smiles": "*C1C[C",
+    "smarts": null,
+    "description": "Cyclopropyl"
+  },
+  "*C(=O)C(F)(F)F": {
+    "smiles": "*C(=O)C(F)(F)F",
+    "smarts": "[#0]-[#6](=[#8])-[#6](-[#9])(-[#9])-[#9]",
+    "description": "direct SMILES: *C(=O)C(F)(F)F"
+  },
+  "*C(C)(C)O": {
+    "smiles": "*C(C)(C)O",
+    "smarts": "[#0]-[#6](-[#6])(-[#6])-[#8]",
+    "description": "direct SMILES: *C(C)(C)O"
+  },
+  "*C(C)=O": {
+    "smiles": "*C(C)=O",
+    "smarts": "[#0]-[#6](-[#6])=[#8]",
+    "description": "direct SMILES: *C(C)=O"
+  },
+  "*C(=O)C1=C(O)CCCC1=O": {
+    "smiles": "*C(=O)C1=C(O)CCCC1=O",
+    "smarts": "[#0]-[#6](=[#8])-[#6]1=[#6](-[#8])-[#6]-[#6]-[#6]-[#6]-1=[#8]",
+    "description": "direct SMILES: *C(=O)C1=C(O)CCCC1=O"
+  },
+  "*C(=O)[O-]": {
+    "smiles": "*C(=O)[O-]",
+    "smarts": "[#0]-[#6](=[#8])-[#8-]",
+    "description": "direct SMILES: *C(=O)[O-]"
+  },
+  "*CCP(=O)(O)O": {
+    "smiles": "*CCP(=O)(O)O",
+    "smarts": "[#0]-[#6]-[#6]-[#15](=[#8])(-[#8])-[#8]",
+    "description": "direct SMILES: *CCP(=O)(O)O"
+  },
+  "hydroxylamine": {
+    "smiles": "NO",
+    "smarts": "[#7]-[#8]",
+    "description": "from PubChem: hydroxylamine"
+  },
+  "*C(=O)CC": {
+    "smiles": "*C(=O)CC",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#6]",
+    "description": "direct SMILES: *C(=O)CC"
+  },
+  "*S(C)(=O)=O": {
+    "smiles": "*S(C)(=O)=O",
+    "smarts": "[#0]-[#16](-[#6])(=[#8])=[#8]",
+    "description": "direct SMILES: *S(C)(=O)=O"
+  },
+  "*C1CCOCC1": {
+    "smiles": "*C1CCOCC1",
+    "smarts": "[#0]-[#6]1-[#6]-[#6]-[#8]-[#6]-[#6]-1",
+    "description": "direct SMILES: *C1CCOCC1"
+  },
+  "*CC=O": {
+    "smiles": "*CC=O",
+    "smarts": "[#0]-[#6]-[#6]=[#8]",
+    "description": "direct SMILES: *CC=O"
+  },
+  "*CCCC(=O)O": {
+    "smiles": "*CCCC(=O)O",
+    "smarts": "[#0]-[#6]-[#6]-[#6]-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *CCCC(=O)O"
+  },
+  "*CC(=O)[O-]": {
+    "smiles": "*CC(=O)[O-]",
+    "smarts": "[#0]-[#6]-[#6](=[#8])-[#8-]",
+    "description": "direct SMILES: *CC(=O)[O-]"
+  },
+  "SH": {
+    "smiles": "[SH]",
+    "smarts": "[#16H]",
+    "description": "Thiol"
+  },
+  "*CF": {
+    "smiles": "*CF",
+    "smarts": "[#0]-[#6]-[#9]",
+    "description": "direct SMILES: *CF"
+  },
+  "*O[P": {
+    "smiles": "*OP",
+    "smarts": "[#0]-[#8]-[#15]",
+    "description": "Phosphoryloxy"
+  },
+  "c1cccc2c1CCN2": {
+    "smiles": "c1ccc2c(c1)CCN2",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#6](:[#6]:1)-[#6]-[#6]-[#7]-2",
+    "description": "direct SMILES: c1cccc2c1CCN2"
+  },
+  "c1ccc2ccccc2c1": {
+    "smiles": "c1ccc2ccccc2c1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#6]:[#6]:[#6]:[#6]:[#6]:2:[#6]:1",
+    "description": "direct SMILES: c1ccc2ccccc2c1"
+  },
+  "*CS(C)(=O)=O": {
+    "smiles": "*CS(C)(=O)=O",
+    "smarts": "[#0]-[#6]-[#16](-[#6])(=[#8])=[#8]",
+    "description": "direct SMILES: *CS(C)(=O)=O"
+  },
+  "*CCCO": {
+    "smiles": "*CCCO",
+    "smarts": "[#0]-[#6]-[#6]-[#6]-[#8]",
+    "description": "direct SMILES: *CCCO"
+  },
+  "*N1CCNCC1": {
+    "smiles": "*N1CCNCC1",
+    "smarts": "[#0]-[#7]1-[#6]-[#6]-[#7]-[#6]-[#6]-1",
+    "description": "direct SMILES: *N1CCNCC1"
+  },
+  "c1ccncc1": {
+    "smiles": "c1ccncc1",
+    "smarts": "[#6]1:[#6]:[#6]:[#7]:[#6]:[#6]:1",
+    "description": "direct SMILES: c1ccncc1"
+  },
+  "transform: ester": {
+    "smiles": "C(=O)O",
+    "smarts": "[#6](=[#8])-[#8]",
+    "description": "carboxylic acid derivative"
+  },
+  "transform: primary amine": {
+    "smiles": "N",
+    "smarts": "[#7]",
+    "description": "Amine"
+  },
+  "secondary amine": {
+    "smiles": "N",
+    "smarts": "[#7]",
+    "description": "Amine"
+  },
+  "alkyl halide": {
+    "smiles": "C-Cl",
+    "smarts": "[#6]-[#17]",
+    "description": "Halogenated alkane"
+  },
+  "enol": {
+    "smiles": "O",
+    "smarts": "[#8]",
+    "description": "hydroxyl"
+  },
+  "*CC#N": {
+    "smiles": "*CC#N",
+    "smarts": "[#0]-[#6]-[#6]#[#7]",
+    "description": "direct SMILES: *CC#N"
+  },
+  "*CCCCC(=O)O": {
+    "smiles": "*CCCCC(=O)O",
+    "smarts": "[#0]-[#6]-[#6]-[#6]-[#6]-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *CCCCC(=O)O"
+  },
+  "benzothiophene": {
+    "smiles": "C1=CC=C2SC=CC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#16]:[#6]:[#6]:[#6]:2:[#6]:1",
+    "description": "from PubChem: benzothiophene"
+  },
+  "transform: sulfide": {
+    "smiles": "S",
+    "smarts": "[#16]",
+    "description": "Sulfur"
+  },
+  "sulfone": {
+    "smiles": "CC1=CC=C(S(=O)(=O)/C(C2=CC=CC=C2)=C(\\Br)C2=CC=CC=C2)C=C1",
+    "smarts": "[#6]-[#6]1:[#6]:[#6]:[#6](-[#16](=[#8])(=[#8])/[#6](-[#6]2:[#6]:[#6]:[#6]:[#6]:[#6]:2)=[#6](\\[#35])-[#6]2:[#6]:[#6]:[#6]:[#6]:[#6]:2):[#6]:[#6]:1",
+    "description": "from PubChem: sulfone"
+  },
+  "*C1CCN(C)CC1": {
+    "smiles": "*C1CCN(C)CC1",
+    "smarts": "[#0]-[#6]1-[#6]-[#6]-[#7](-[#6])-[#6]-[#6]-1",
+    "description": "direct SMILES: *C1CCN(C)CC1"
+  },
+  "C1CCCC1": {
+    "smiles": "C1CCCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#6]-[#6]-1",
+    "description": "direct SMILES: C1CCCC1"
+  },
+  "transform: sulfonamide": {
+    "smiles": "NS(=O)(=O)c1ccccc1",
+    "smarts": "[#7]-[#16](=[#8])(=[#8])-[#6]1:[#6]:[#6]:[#6]:[#6]:[#6]:1",
+    "description": "sulfonamide"
+  },
+  "sulfoxide": {
+    "smiles": "CCCCCCCCS(=O)C(C)CC1=CC2=C(C=C1)OCO2",
+    "smarts": "[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#16](=[#8])-[#6](-[#6])-[#6]-[#6]1:[#6]:[#6]2:[#6](:[#6]:[#6]:1)-[#8]-[#6]-[#8]-2",
+    "description": "from PubChem: sulfoxide"
+  },
+  "benzimidazole": {
+    "smiles": "C1=CC=C2NC=NC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#7H]:[#6]:[#7]:[#6]:2:[#6]:1",
+    "description": "from PubChem: benzimidazole"
+  },
+  "piperidine": {
+    "smiles": "C1CCNCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#7]-[#6]-[#6]-1",
+    "description": "heterocycle"
+  },
+  "*CCCl": {
+    "smiles": "*CCCl",
+    "smarts": "[#0]-[#6]-[#6]-[#17]",
+    "description": "direct SMILES: *CCCl"
+  },
+  "transform: ether": {
+    "smiles": "O",
+    "smarts": "[#8]",
+    "description": "oxygen"
+  },
+  "*N1CCCC1": {
+    "smiles": "*N1CCCC1",
+    "smarts": "[#0]-[#7]1-[#6]-[#6]-[#6]-[#6]-1",
+    "description": "direct SMILES: *N1CCCC1"
+  },
+  "transform: alkene": {
+    "smiles": "C=C",
+    "smarts": "[#6]=[#6]",
+    "description": "Double bond"
+  },
+  "*N1CCCCC1": {
+    "smiles": "*N1CCCCC1",
+    "smarts": "[#0]-[#7]1-[#6]-[#6]-[#6]-[#6]-[#6]-1",
+    "description": "direct SMILES: *N1CCCCC1"
+  },
+  "*NC": {
+    "smiles": "*NC",
+    "smarts": "[#0]-[#7]-[#6]",
+    "description": "direct SMILES: *NC"
+  },
+  "*OC": {
+    "smiles": "*OC",
+    "smarts": "[#0]-[#8]-[#6]",
+    "description": "direct SMILES: *OC"
+  },
+  "O": {
+    "smiles": "O",
+    "smarts": "[#8]",
+    "description": "direct SMILES: O"
+  },
+  "O1CCCCC1": {
+    "smiles": "C1CCOCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#8]-[#6]-[#6]-1",
+    "description": "direct SMILES: O1CCCCC1"
+  },
+  "*C(=O)CO": {
+    "smiles": "*C(=O)CO",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#8]",
+    "description": "direct SMILES: *C(=O)CO"
+  },
+  "*NC(N)=[NH2+]": {
+    "smiles": "*NC(N)=[NH2+]",
+    "smarts": "[#0]-[#7]-[#6](-[#7])=[#7H2+]",
+    "description": "direct SMILES: *NC(N)=[NH2+]"
+  },
+  "transform: NH2": {
+    "smiles": "N",
+    "smarts": "[#7]",
+    "description": "Amino"
+  },
+  "transform: sulfone": {
+    "smiles": "S(=O)(=O)",
+    "smarts": "[#16](=[#8])=[#8]",
+    "description": "sulfone"
+  },
+  "*n1cnc2c(N)ncnc21": {
+    "smiles": "*n1cnc2c(N)ncnc21",
+    "smarts": "[#0]-[#7]1:[#6]:[#7]:[#6]2:[#6](-[#7]):[#7]:[#6]:[#7]:[#6]:1:2",
+    "description": "direct SMILES: *n1cnc2c(N)ncnc21"
+  },
+  "transform: nitro": {
+    "smiles": "[N+](=O)[O-]",
+    "smarts": "[#7+](=[#8])-[#8-]",
+    "description": "Nitro"
+  },
+  "S": {
+    "smiles": "S",
+    "smarts": "[#16]",
+    "description": "direct SMILES: S"
+  },
+  "*C(=O)CCC": {
+    "smiles": "*C(=O)CCC",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#6]-[#6]",
+    "description": "direct SMILES: *C(=O)CCC"
+  },
+  "COO": {
+    "smiles": "COO",
+    "smarts": "[#6]-[#8]-[#8]",
+    "description": "direct SMILES: COO"
+  },
+  "*CCCCCC(=O)O": {
+    "smiles": "*CCCCCC(=O)O",
+    "smarts": "[#0]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *CCCCCC(=O)O"
+  },
+  "*C(=O)O": {
+    "smiles": "*C(=O)O",
+    "smarts": "[#0]-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *C(=O)O"
+  },
+  "*CC(C)(C)O": {
+    "smiles": "*CC(C)(C)O",
+    "smarts": "[#0]-[#6]-[#6](-[#6])(-[#6])-[#8]",
+    "description": "direct SMILES: *CC(C)(C)O"
+  },
+  "*N1CCN(C)CC1": {
+    "smiles": "*N1CCN(C)CC1",
+    "smarts": "[#0]-[#7]1-[#6]-[#6]-[#7](-[#6])-[#6]-[#6]-1",
+    "description": "direct SMILES: *N1CCN(C)CC1"
+  },
+  "*OC(F)F": {
+    "smiles": "*OC(F)F",
+    "smarts": "[#0]-[#8]-[#6](-[#9])-[#9]",
+    "description": "direct SMILES: *OC(F)F"
+  },
+  "CHO": {
+    "smiles": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "smarts": "[#6]-[#6@H](-[#6]-[#6]-[#6](=[#8])-[#7]-[#6]-[#6](=[#8])-[#8])-[#6@H]1-[#6]-[#6]-[#6@H]2-[#6@@H]3-[#6@H](-[#8])-[#6]-[#6@@H]4-[#6]-[#6@H](-[#8])-[#6]-[#6]-[#6@]-4(-[#6])-[#6@H]-3-[#6]-[#6]-[#6@]-1-2-[#6]",
+    "description": "from PubChem: CHO"
+  },
+  "benzopyran": {
+    "smiles": "C1=CC=C2OCC=CC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2-[#8]-[#6]-[#6]=[#6]-[#6]:2:[#6]:1",
+    "description": "from PubChem: benzopyran"
+  },
+  "cyclopropane": {
+    "smiles": "C1CC1",
+    "smarts": "[#6]1-[#6]-[#6]-1",
+    "description": "from PubChem: cyclopropane"
+  },
+  "COOEt": {
+    "smiles": "CC(=O)O",
+    "smarts": "[#6]-[#6](=[#8])-[#8]",
+    "description": "Ethyl ester"
+  },
+  "c1ccc2c(c1)OCC2": {
+    "smiles": "c1ccc2c(c1)CCO2",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#6](:[#6]:1)-[#6]-[#6]-[#8]-2",
+    "description": "direct SMILES: c1ccc2c(c1)OCC2"
+  },
+  "c1ccc2scc2c1": {
+    "smiles": "C1=CC=CC2SCC2=C1",
+    "smarts": "[#6]1=[#6]-[#6]=[#6]-[#6]2-[#16]-[#6]-[#6]-2=[#6]-1",
+    "description": "thiophene"
+  },
+  "C1CC1": {
+    "smiles": "C1CC1",
+    "smarts": "[#6]1-[#6]-[#6]-1",
+    "description": "direct SMILES: C1CC1"
+  },
+  "C1CCNC1": {
+    "smiles": "C1CCNC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#7]-[#6]-1",
+    "description": "direct SMILES: C1CCNC1"
+  },
+  "carboxylic_acid": {
+    "smiles": "C(=O)O",
+    "smarts": "[#6](=[#8])-[#8]",
+    "description": "Acidic"
+  },
+  "quinazoline": {
+    "smiles": "C1=CC=C2N=CN=CC2=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#7]:[#6]:[#7]:[#6]:[#6]:2:[#6]:1",
+    "description": "from PubChem: quinazoline"
+  },
+  "carbazole": {
+    "smiles": "C1=CC=C2C(=C1)NC1=CC=CC=C12",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#6](:[#6]:1):[#7H]:[#6]1:[#6]:[#6]:[#6]:[#6]:[#6]:2:1",
+    "description": "from PubChem: carbazole"
+  },
+  "cyclobutane": {
+    "smiles": "C1CCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#6]-1",
+    "description": "from PubChem: cyclobutane"
+  },
+  "*N1CCCCCC1": {
+    "smiles": "*N1CCCCCC1",
+    "smarts": "[#0]-[#7]1-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-1",
+    "description": "direct SMILES: *N1CCCCCC1"
+  },
+  "c1cccc1": {
+    "smiles": "c1ccccc1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]:[#6]:[#6]:1",
+    "description": "aromatic ring"
+  },
+  "N1CCCC1": {
+    "smiles": "C1CCNC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#7]-[#6]-1",
+    "description": "direct SMILES: N1CCCC1"
+  },
+  "C1CCC1": {
+    "smiles": "C1CCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#6]-1",
+    "description": "direct SMILES: C1CCC1"
+  },
+  "phenol": {
+    "smiles": "OC1=CC=CC=C1",
+    "smarts": "[#8]-[#6]1:[#6]:[#6]:[#6]:[#6]:[#6]:1",
+    "description": "from PubChem: phenol"
+  },
+  "tetrahydrofuran": {
+    "smiles": "C1CCOC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#8]-[#6]-1",
+    "description": "from PubChem: tetrahydrofuran"
+  },
+  "isoindole": {
+    "smiles": "C1=CC2=CNC=C2C=C1",
+    "smarts": "[#6]1:[#6]:[#6]2:[#6]:[#7H]:[#6]:[#6]:2:[#6]:[#6]:1",
+    "description": "from PubChem: isoindole"
+  },
+  "*OP(=O)(O)O": {
+    "smiles": "*OP(=O)(O)O",
+    "smarts": "[#0]-[#8]-[#15](=[#8])(-[#8])-[#8]",
+    "description": "direct SMILES: *OP(=O)(O)O"
+  },
+  "*OC(F)(F)F": {
+    "smiles": "*OC(F)(F)F",
+    "smarts": "[#0]-[#8]-[#6](-[#9])(-[#9])-[#9]",
+    "description": "direct SMILES: *OC(F)(F)F"
+  },
+  "OCF3": {
+    "smiles": "OC(F)(F)F",
+    "smarts": "[#8]-[#6](-[#9])(-[#9])-[#9]",
+    "description": "Trifluoromethyl"
+  },
+  "*N(C)C": {
+    "smiles": "*N(C)C",
+    "smarts": "[#0]-[#7](-[#6])-[#6]",
+    "description": "direct SMILES: *N(C)C"
+  },
+  "OMe": {
+    "smiles": "C",
+    "smarts": "[#6]",
+    "description": "Methyl ether"
+  },
+  "*S(=O)(=O)CC": {
+    "smiles": "*S(=O)(=O)CC",
+    "smarts": "[#0]-[#16](=[#8])(=[#8])-[#6]-[#6]",
+    "description": "direct SMILES: *S(=O)(=O)CC"
+  },
+  "*C(=O)CCCCCCCCCCCCCCC": {
+    "smiles": "*C(=O)CCCCCCCCCCCCCCC",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]",
+    "description": "direct SMILES: *C(=O)CCCCCCCCCCCCCCC"
+  },
+  "transform: phenol": {
+    "smiles": "C1=CC=C(C=C1)O",
+    "smarts": "[#6]1:[#6]:[#6]:[#6](:[#6]:[#6]:1)-[#8]",
+    "description": "Hydroxybenzene"
+  },
+  "benzoic acid": {
+    "smiles": "O=C(O)C1=CC=CC=C1",
+    "smarts": "[#8]=[#6](-[#8])-[#6]1:[#6]:[#6]:[#6]:[#6]:[#6]:1",
+    "description": "from PubChem: benzoic acid"
+  },
+  "*C(=O)C(C)(C)C": {
+    "smiles": "*C(=O)C(C)(C)C",
+    "smarts": "[#0]-[#6](=[#8])-[#6](-[#6])(-[#6])-[#6]",
+    "description": "direct SMILES: *C(=O)C(C)(C)C"
+  },
+  "*C(=O)C(=O)O": {
+    "smiles": "*C(=O)C(=O)O",
+    "smarts": "[#0]-[#6](=[#8])-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *C(=O)C(=O)O"
+  },
+  "*O": {
+    "smiles": "*O",
+    "smarts": "[#0]-[#8]",
+    "description": "direct SMILES: *O"
+  },
+  "S1CCCCC1": {
+    "smiles": "C1CCSCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#16]-[#6]-[#6]-1",
+    "description": "direct SMILES: S1CCCCC1"
+  },
+  "O1CCCC1": {
+    "smiles": "C1CCOC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#8]-[#6]-1",
+    "description": "direct SMILES: O1CCCC1"
+  },
+  "OCH2CH3": {
+    "smiles": "CCO",
+    "smarts": "[#6]-[#6]-[#8]",
+    "description": "Ethoxy"
+  },
+  "phenyl": {
+    "smiles": "[C]1=CC=CC=C1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]:[#6]:[#6]:1",
+    "description": "from PubChem: phenyl"
+  },
+  "carboxylic-acid": {
+    "smiles": "CO[C@](C=O)(NC(=O)[C@H](C(=O)O)C1=CSC=C1)[C@@H]1N[C@@H](C(=O)O)C(C)(C)S1",
+    "smarts": "[#6]-[#8]-[#6@](-[#6]=[#8])(-[#7]-[#6](=[#8])-[#6@H](-[#6](=[#8])-[#8])-[#6]1:[#6]:[#16]:[#6]:[#6]:1)-[#6@@H]1-[#7]-[#6@@H](-[#6](=[#8])-[#8])-[#6](-[#6])(-[#6])-[#16]-1",
+    "description": "from PubChem: carboxylic-acid"
+  },
+  "C(O)O": {
+    "smiles": "OCO",
+    "smarts": "[#8]-[#6]-[#8]",
+    "description": "direct SMILES: C(O)O"
+  },
+  "CH2OH": {
+    "smiles": "[CH2]O",
+    "smarts": "[#6H2]-[#8]",
+    "description": "from PubChem: CH2OH"
+  },
+  "C1CCOC1": {
+    "smiles": "C1CCOC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#8]-[#6]-1",
+    "description": "direct SMILES: C1CCOC1"
+  },
+  "isoxazole": {
+    "smiles": "C1=CON=C1",
+    "smarts": "[#6]1:[#6]:[#8]:[#7]:[#6]:1",
+    "description": "from PubChem: isoxazole"
+  },
+  "transform: C(O)O": {
+    "smiles": "C(=O)O",
+    "smarts": "[#6](=[#8])-[#8]",
+    "description": "Carboxylic acid"
+  },
+  "N1CCCCC1": {
+    "smiles": "C1CCNCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#7]-[#6]-[#6]-1",
+    "description": "direct SMILES: N1CCCCC1"
+  },
+  "*S(=O)(=O)C1CC1": {
+    "smiles": "*S(=O)(=O)C1CC1",
+    "smarts": "[#0]-[#16](=[#8])(=[#8])-[#6]1-[#6]-[#6]-1",
+    "description": "direct SMILES: *S(=O)(=O)C1CC1"
+  },
+  "*CCO": {
+    "smiles": "*CCO",
+    "smarts": "[#0]-[#6]-[#6]-[#8]",
+    "description": "direct SMILES: *CCO"
+  },
+  "O1CCOCC1": {
+    "smiles": "C1COCCO1",
+    "smarts": "[#6]1-[#6]-[#8]-[#6]-[#6]-[#8]-1",
+    "description": "direct SMILES: O1CCOCC1"
+  },
+  "N1CCC1": {
+    "smiles": "C1CNC1",
+    "smarts": "[#6]1-[#6]-[#7]-[#6]-1",
+    "description": "direct SMILES: N1CCC1"
+  },
+  "CCC": {
+    "smiles": "CCC",
+    "smarts": "[#6]-[#6]-[#6]",
+    "description": "direct SMILES: CCC"
+  },
+  "*N1CCC(C)(C)CC1": {
+    "smiles": "*N1CCC(C)(C)CC1",
+    "smarts": "[#0]-[#7]1-[#6]-[#6]-[#6](-[#6])(-[#6])-[#6]-[#6]-1",
+    "description": "direct SMILES: *N1CCC(C)(C)CC1"
+  },
+  "*CC(C)=O": {
+    "smiles": "*CC(C)=O",
+    "smarts": "[#0]-[#6]-[#6](-[#6])=[#8]",
+    "description": "direct SMILES: *CC(C)=O"
+  },
+  "*OCP(=O)(O)O": {
+    "smiles": "*OCP(=O)(O)O",
+    "smarts": "[#0]-[#8]-[#6]-[#15](=[#8])(-[#8])-[#8]",
+    "description": "direct SMILES: *OCP(=O)(O)O"
+  },
+  "*CCS(=O)(=O)O": {
+    "smiles": "*CCS(=O)(=O)O",
+    "smarts": "[#0]-[#6]-[#6]-[#16](=[#8])(=[#8])-[#8]",
+    "description": "direct SMILES: *CCS(=O)(=O)O"
+  },
+  "*C(O)C(=O)O": {
+    "smiles": "*C(O)C(=O)O",
+    "smarts": "[#0]-[#6](-[#8])-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *C(O)C(=O)O"
+  },
+  "*C(=O)CCCCCCCCCCC": {
+    "smiles": "*C(=O)CCCCCCCCCCC",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]",
+    "description": "direct SMILES: *C(=O)CCCCCCCCCCC"
+  },
+  "*C(=O)CCCCC": {
+    "smiles": "*C(=O)CCCCC",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#6]-[#6]-[#6]-[#6]",
+    "description": "direct SMILES: *C(=O)CCCCC"
+  },
+  "*C[C": {
+    "smiles": "*CC",
+    "smarts": "[#0]-[#6]-[#6]",
+    "description": "ethyl"
+  },
+  "*CP(=O)(O)O": {
+    "smiles": "*CP(=O)(O)O",
+    "smarts": "[#0]-[#6]-[#15](=[#8])(-[#8])-[#8]",
+    "description": "direct SMILES: *CP(=O)(O)O"
+  },
+  "*C(=O)CCCCCCC": {
+    "smiles": "*C(=O)CCCCCCC",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]",
+    "description": "direct SMILES: *C(=O)CCCCCCC"
+  },
+  "*N1CCC(C)CC1": {
+    "smiles": "*N1CCC(C)CC1",
+    "smarts": "[#0]-[#7]1-[#6]-[#6]-[#6](-[#6])-[#6]-[#6]-1",
+    "description": "direct SMILES: *N1CCC(C)CC1"
+  },
+  "*CC(=O)O": {
+    "smiles": "*CC(=O)O",
+    "smarts": "[#0]-[#6]-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *CC(=O)O"
+  },
+  "*C(C)C(=O)O": {
+    "smiles": "*C(C)C(=O)O",
+    "smarts": "[#0]-[#6](-[#6])-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *C(C)C(=O)O"
+  },
+  "*C(C)(C)C(=O)O": {
+    "smiles": "*C(C)(C)C(=O)O",
+    "smarts": "[#0]-[#6](-[#6])(-[#6])-[#6](=[#8])-[#8]",
+    "description": "direct SMILES: *C(C)(C)C(=O)O"
+  },
+  "*C(=O)CCCCCCCCC": {
+    "smiles": "*C(=O)CCCCCCCCC",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]",
+    "description": "direct SMILES: *C(=O)CCCCCCCCC"
+  },
+  "morpholine": {
+    "smiles": "C1COCCN1",
+    "smarts": "[#6]1-[#6]-[#8]-[#6]-[#6]-[#7]-1",
+    "description": "from PubChem: morpholine"
+  },
+  "*C(=O)CCCCCCCCCCCCCCCCC": {
+    "smiles": "*C(=O)CCCCCCCCCCCCCCCCC",
+    "smarts": "[#0]-[#6](=[#8])-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]",
+    "description": "direct SMILES: *C(=O)CCCCCCCCCCCCCCCCC"
+  },
+  "C#N": {
+    "smiles": "C#N",
+    "smarts": "[#6]#[#7]",
+    "description": "direct SMILES: C#N"
+  },
+  "c1ccc2cc3ccccc3cc2c1": {
+    "smiles": "c1ccc2cc3ccccc3cc2c1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]2:[#6]:[#6]3:[#6]:[#6]:[#6]:[#6]:[#6]:3:[#6]:[#6]:2:[#6]:1",
+    "description": "direct SMILES: c1ccc2cc3ccccc3cc2c1"
+  },
+  "C1CCOCC1": {
+    "smiles": "C1CCOCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#8]-[#6]-[#6]-1",
+    "description": "direct SMILES: C1CCOCC1"
+  },
+  "c1ccccn1": {
+    "smiles": "c1ccncc1",
+    "smarts": "[#6]1:[#6]:[#6]:[#7]:[#6]:[#6]:1",
+    "description": "direct SMILES: c1ccccn1"
+  },
+  "s1ccccc1": {
+    "smiles": "c1ccccc1",
+    "smarts": "[#6]1:[#6]:[#6]:[#6]:[#6]:[#6]:1",
+    "description": "Benzene"
+  },
+  "N(Me)2": {
+    "smiles": "CN(C)C",
+    "smarts": "[#6]-[#7](-[#6])-[#6]",
+    "description": "Dimethylamino"
+  },
+  "CC(C)C": {
+    "smiles": "CC(C)C",
+    "smarts": "[#6]-[#6](-[#6])-[#6]",
+    "description": "direct SMILES: CC(C)C"
+  },
+  "oxepane": {
+    "smiles": "C1CCCOCC1",
+    "smarts": "[#6]1-[#6]-[#6]-[#6]-[#8]-[#6]-[#6]-1",
+    "description": "from PubChem: oxepane"
+  }
+}
